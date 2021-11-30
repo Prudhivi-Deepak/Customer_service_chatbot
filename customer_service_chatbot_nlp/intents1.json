@@ -1,0 +1,173 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi there",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hey",
+                                "Hola",
+                                "Hello",
+                                "Good day"
+                        ],
+                        "responses": [
+                                "Hello, thanks for asking",
+                                "Good to see you again",
+                                "Hi there, how can I help?"
+                        ]
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "Bye",
+                                "See you later",
+                                "Goodbye",
+                                "Nice chatting to you, bye",
+                                "Till next time"
+                        ],
+                        "responses": [
+                                "See you!",
+                                "Have a nice day",
+                                "Bye! Come back again soon."
+                        ]
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": [
+                                "Thanks",
+                                "Thank you",
+                                "That's helpful",
+                                "Awesome, thanks",
+                                "Thanks for helping me"
+                        ],
+                        "responses": [
+                                "Happy to help!",
+                                "Any time!",
+                                "My pleasure"
+                        ]
+                },
+                {
+                        "tag": "options",
+                        "patterns": [
+                                "How you could help me?",
+                                "What you can do?",
+                                "What help you provide?",
+                                "How you can be helpful?",
+                                "What information is offered"
+                        ],
+                        "responses": [
+                                "I can guide you through items list,order tracking, brands and companies",
+                                "Offering information about buying items,rating"
+                        ]
+                },
+                {
+                        "tag": "items_list",
+                        "patterns": [
+                                "How to check items list?",
+                                "Open product1 under category1 module",
+                                "Give me a list of items in the brand1",
+                                "List all the items with discounts more than fifty",
+                                "Which are the popular brands?"
+                        ],
+                        "responses": [
+                                "Navigating to requested products module"
+                        ]
+                },
+                {
+                        "tag": "category1",
+                        "patterns": [
+                                "Open category1 module products",
+                                "products related to brand1",
+                                "information about the product1",
+                                "I want to know rating of product1",
+                                "product1 discounts",
+                                "products"
+                        ],
+                        "responses": [
+                                "Navigating to requested category1 module",
+                                "Navigating to requested product1 module",
+                                "Navigating to requested brand1 module"
+                        ]
+                },
+                {
+                        "tag": "category2",
+                        "patterns": [
+                                "Open category2 module",
+                                "products related to brand2",
+                                "information about the product1",
+                                "I want to know rating of product1",
+                                "product2 discounts"
+                        ],
+                        "responses": [
+                                "Navigating to requested category2 module",
+                                "Navigating to requested product1 module",
+                                "Navigating to requested brand1 module"
+                        ]
+                },
+                {
+                        "tag": "shoes",
+                        "patterns": [
+                                "Open shoes module",
+                                "shoes related to brand2",
+                                "information about the shoes",
+                                "I want to know rating of shows",
+                                "shoes discounts"
+                        ],
+                        "responses": [
+                                "showing the requested shoes module",
+                                "Showing to requested brand of Shoes module"
+                        ]
+                },
+                {
+                        "tag": "pants",
+                        "patterns": [
+                                "Open pants module",
+                                "pants related to brand2",
+                                "information about the pants",
+                                "I want to know rating of pants",
+                                "pants discounts"
+                        ],
+                        "responses": [
+                                "Displaying the requested pants module",
+                                "Displaying to requested brand of pants module"
+                        ]
+                },
+                {
+                        "tag": "hours",
+                        "patterns": [
+                                "What hours are you open?",
+                                "What are your hours?",
+                                "When are you open?"
+                        ],
+                        "responses": [
+                                "We're open every day 9am-9pm",
+                                "Our hours are 9am-9pm every day"
+                        ]
+                },
+                {
+                        "tag": "payments",
+                        "patterns": [
+                                "Do you take credit cards?",
+                                "Do you accept Mastercard?",
+                                "Are you cash only?"
+                        ],
+                        "responses": [
+                                "We accept VISA, Mastercard and AMEX",
+                                "We accept most major credit cards"
+                        ]
+                },
+                {
+                        "tag": "opentoday",
+                        "patterns": [
+                                "Are you open today?",
+                                "When do you open today?",
+                                "What are your hours today?"
+                        ],
+                        "responses": [
+                                "We're open every day from 9am-9pm",
+                                "Our hours are 9am-9pm every day"
+                        ]
+                }
+        ]
+}
